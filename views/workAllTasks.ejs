@@ -1,0 +1,24 @@
+<%- include("partials/header.ejs") %>
+<div class="lists">
+    <form action="/yourAllList" method="POST">
+        <input type="submit" value="Your list">
+    </form>
+    <form action="/workAllList" method="POST">
+        <input type="submit" value="work list">
+    </form>
+</div>
+<% if(locals.workTasks){ %>
+    <div class="heroSection">
+    <div class="taskContainer allContainer">
+    <% for(var i=1;i<workTasks.length;i++){  %>
+            <div class="task">
+                <div class="taskContent">
+                    <%= workTasks[i].name%>
+                </div>
+            </div>
+        
+    <% } %>
+</div>
+<%} %>
+</div>
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,83 @@
+body{
+    background-color: #BEADFA;
+    color: #FFF3DA;
+}
+
+.lists input{
+    background-color: #BEADFA;
+    border: none;
+    cursor: pointer;
+    color: #f1eee7;
+    box-shadow: 2px 3px #524a70;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+/* -------header Section-------  */
+
+.navbarSection{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around;
+}
+
+
+.navbarSection a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ----------- Hero Section --------- */
+
+.lists{
+    margin-top: 30px;
+    display: flex;
+}
+
+.taskContainer{
+    width:380px;
+    background-color: #8178a7;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.allContainer{
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task{
+    display: flex;
+    padding: 10px;
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.createATask{
+    background-color: #9f8bea;
+    padding: 30px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.createATask input{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.createATask button{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #8178a7;
+}
+
+footer{
+    margin-top: 100px;
+}
